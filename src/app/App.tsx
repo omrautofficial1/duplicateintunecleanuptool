@@ -84,8 +84,8 @@ function AppShell() {
         <div className="mb-6 grid gap-3 sm:grid-cols-3">
           {[
             { label: 'Managed devices', value: devices?.length ?? '—', hint: 'Current inventory' },
-            { label: 'Duplicate device groups', value: groups.length, hint: 'Needs review' },
-            { label: 'Stale candidates', value: staleCount, hint: 'Eligible for review' },
+            { label: 'Duplicate device Identified', value: groups.length, hint: 'Needs review' },
+            { label: 'Stale Devices', value: staleCount, hint: 'Eligible for review' },
           ].map((metric) => (
             <div key={metric.label} className="border border-app-hairline bg-app-surface p-4 shadow-sm">
               <p className="text-xs font-semibold uppercase tracking-wide text-app-ink/55">{metric.label}</p>
