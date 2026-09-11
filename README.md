@@ -1,3 +1,7 @@
+# API Permissions
+<img width="1618" height="356" alt="image" src="https://github.com/user-attachments/assets/7bf8920e-1029-43d3-b9a7-143d6d9f3f44" />
+
+
 # Intune Duplicate Device Cleanup
 
 A client-only React SPA that signs in to Microsoft Entra ID, pulls the full
