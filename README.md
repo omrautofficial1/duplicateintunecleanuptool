@@ -1,5 +1,6 @@
 # API Permissions
-<img width="1618" height="356" alt="image" src="https://github.com/user-attachments/assets/7bf8920e-1029-43d3-b9a7-143d6d9f3f44" />
+<img width="1458" height="396" alt="image" src="https://github.com/user-attachments/assets/5787d739-714d-45c1-8129-97d0acee3d4f" />
+
 
 
 # Intune Duplicate Device Cleanup
