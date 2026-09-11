@@ -1,0 +1,48 @@
+/* Design tokens (spec §9.4, arc42 quality-tree.md — non-negotiable,
+   direct transcription, no tradeoff involved / C-11). Color is a
+   risk/status signal only, never decorative — every color-coded state
+   needs a redundant text/icon cue. */
+
+@import 'tailwindcss';
+
+@theme {
+  --color-app-background: #eef0f3;
+  --color-app-surface: #ffffff;
+  --color-app-ink: #1b2a38;
+  --color-app-hairline: #c7cfd8;
+  --color-app-delete: #a81e1e;
+  --color-app-wipe: #b4610a;
+  --color-app-keeper: #1f6f5c;
+
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+@layer base {
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-app-background);
+    color: var(--color-app-ink);
+    font-family: var(--font-sans);
+  }
+
+  /* Serials and IMEIs use tabular figures for eyeball comparison (quality-tree.md). */
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
