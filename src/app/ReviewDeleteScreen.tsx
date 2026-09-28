@@ -28,7 +28,7 @@ export function ReviewDeleteScreen() {
   if (targets.length === 0) {
     return (
       <div className="rounded-md border border-app-hairline bg-app-surface p-8 text-center text-sm text-app-ink/70">
-        No records selected. Go to the Duplicates screen and select candidates to delete.
+        No records selected. Go to the Duplicates screen and select Devices to delete.
       </div>
     );
   }
