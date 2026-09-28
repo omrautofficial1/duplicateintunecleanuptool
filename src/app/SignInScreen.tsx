@@ -10,7 +10,7 @@ export function SignInScreen() {
 
   return (
     <div className="mx-auto mt-24 max-w-md space-y-6 rounded-md border border-app-hairline bg-app-surface p-8 text-center shadow-sm">
-      <h1 className="text-xl font-semibold">Intune Duplicate Device Cleanup</h1>
+      <h1 className="text-xl font-semibold">Intune Duplicate Device Cleanup tool by Telestar</h1>
       <p className="text-sm text-app-ink/70">
         Sign in with a Microsoft work account to browse and clean up duplicate Intune device
         records. Read-only access is requested at sign-in; write access is only requested at the
