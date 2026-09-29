@@ -116,7 +116,7 @@ function MemberRow({
             </Badge>
           )}
           {!isKeeper && member.role === 'candidate' && member.deletable && (
-            <Badge tone="info">Stale login candidate</Badge>
+            <Badge tone="info">Duplicate Devices</Badge>
           )}
           {isKeeper && isOverridden && (
             <Button variant="primary" onClick={() => clearKeeperOverride(group.id)}>
